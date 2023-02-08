@@ -1,0 +1,37 @@
+.review-container{
+  width: 98%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin: 10px;
+}
+
+.review-card{
+  width: 260px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid teal;
+}
+.review-card > p{
+  word-wrap:break-word;
+  overflow: auto;
+}
+
+.star{
+  font-size: 20px;
+  color: gold;
+}
+
+.button-d{
+  padding: 5px 15px;
+  border-radius: 20px;
+  border: 1px solid palevioletred;
+  background: white;
+  cursor: pointer;
+}
+
+.button-d:hover{
+  color: white;
+  border: 1px solid palevioletred;
+  background: palevioletred;
+}
